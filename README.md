@@ -5,26 +5,4 @@ A workshop where you build, connect, test, and deploy AI agents.
 
 
 
-----------------------------------------------------------------
 
-             AI AGENT WORKSPACE
-
- ┌───────────────────────────────────────────┐
- │                                           │
- │  Knowledge ──┐                            │
- │              │                            │
- │  SQL ────────┼──► Agent Runtime ──► LLM  │
- │              │                            │
- │  APIs ───────┤                            │
- │              │                            │
- │  Tools ──────┘                            │
- │                                           │
- └───────────────────┬───────────────────────┘
-                     │
-            ┌────────┴─────────┐
-            │                  │
-        Evaluation        Observability
-            │                  │
-            └────────┬─────────┘
-                     ↓
-             Improve Agent
